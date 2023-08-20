@@ -18,16 +18,16 @@ Follow these steps to complie and run the program in a terminal.
 
 ### Recursive Approach: Approach 1
 
-Advantages: Simple and easy to understand. Represents the mathematical definition of the sequence.
-Disadvantages: Exponential time complexity due to redundant calculations. Inefficient for larger values of n.
+`Advantages:` Simple and easy to understand. Represents the mathematical definition of the sequence.
+`Disadvantages:` Exponential time complexity due to redundant calculations. Inefficient for larger values of n.
 
 ### Memoization (Top-Down Dynamic Programming): Approach 2
 
-Advantages: Avoids redundant calculations through memoization. Can handle larger values of n efficiently.
-Disadvantages: Uses extra space for the memoization table. Recursive calls might still lead to stack overflow for very large n.
+`Advantages:` Avoids redundant calculations through memoization. Can handle larger values of n efficiently.
+`Disadvantages:` Uses extra space for the memoization table. Recursive calls might still lead to stack overflow for very large n.
 
 ### Iterative (Bottom-Up Dynamic Programming): Approach 3
 
-Advantages: Efficiently computes the sequence iteratively without the risk of stack overflow. Space-efficient as it only requires an array for dynamic programming.
-Disadvantages: Requires some additional code complexity compared to the recursive approach.
+`Advantages:` Efficiently computes the sequence iteratively without the risk of stack overflow. Space-efficient as it only requires an array for dynamic programming.
+`Disadvantages:` Requires some additional code complexity compared to the recursive approach.
 
